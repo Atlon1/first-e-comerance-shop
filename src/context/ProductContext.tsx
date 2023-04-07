@@ -1,6 +1,7 @@
 import React, {createContext, useState, useEffect} from 'react';
+import product from "../components/Product";
 
-export const ProductContext = createContext() as any;
+export const ProductContext = createContext(product) as any;
 
 
 const ProductProvider = ({children}: any) => {
