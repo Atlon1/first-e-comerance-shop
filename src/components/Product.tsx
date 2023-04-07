@@ -7,7 +7,6 @@ const Product = ({product}: any) => {
 
     const {id, image, category, title, price} = product
 
-    console.log(product)
     return (
         <div>
             <div className='border border-[#e4e4e4] h-[300px] mb-4 relative overflow-hidden group transition'>
