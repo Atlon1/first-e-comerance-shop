@@ -4,14 +4,19 @@ import App from "./App";
 import React from 'react';
 import ProductProvider from "./context/ProductContext";
 import SidebarProvider from "./context/SidebarContext";
+import CartProvider from "./context/CartContext";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+const root = ReactDOM.createRoot(document.getElementById('root')!);
+
+root.render(
     <SidebarProvider>
-        <ProductProvider>
-            <React.StrictMode>
-                <App />
-            </React.StrictMode>
-        </ProductProvider>
+        <CartProvider>
+            <ProductProvider>
+                <React.StrictMode>
+                    <App/>
+                </React.StrictMode>
+            </ProductProvider>
+        </CartProvider>
     </SidebarProvider>
-)
+);
 
