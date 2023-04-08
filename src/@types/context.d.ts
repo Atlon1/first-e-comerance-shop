@@ -8,4 +8,5 @@ export type CartContextType = {
     cart: any
     setCart: any
     addToCart: any
+    CartItem: any
 };
