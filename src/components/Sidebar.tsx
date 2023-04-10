@@ -22,8 +22,8 @@ const Sidebar = () => {
             </div>
             <div className='flex flex-col gap-y-2 h-[520px] lg:h-[640px] overflow-y-auto overflow-x-hidden border-b'>
                 {cart.map((item: any) => {
-                return <CartItem item={item} key={item.id}/>
-            })}
+                    return <CartItem item={item} key={item.id}/>
+                })}
             </div>
             <div className='flex flex-col gap-y-3 py-4 mt-4'>
                 <div className='flex w-full justify-between items-center'>
@@ -36,6 +36,16 @@ const Sidebar = () => {
                         <FiTrash2/>
                     </div>
                 </div>
+                <Link
+                    className='bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium'
+                    to={'/'}>
+                    Viev cart
+                </Link>
+                <Link
+                    className='bg-primary flex p-4 justify-center items-center text-white w-full font-medium'
+                    to={'/'}>
+                    Chceckout
+                </Link>
             </div>
         </div>
     );
