@@ -6,7 +6,7 @@ import {Link} from 'react-scroll';
 
 const Hero = () => {
     return (
-        <section className='h-[800px] bg-hero bg-no-repeat  bg-cover bg-center py-24'>
+        <section className='h-[800px] bg-hero bg-no-repeat  bg-cover bg-center py-24' id='hero'>
             <div className="container mx-auto flex justify-around h-full">
                 <div className='flex flex-col justify-center'>
                     <div className='font-semibold flex items-center uppercase'>
@@ -27,7 +27,7 @@ const Hero = () => {
                     </Link>
                 </div>
                 <div className='hidden lg:block'>
-                    <img src={WomanImg} alt=''/>
+                    <img className='w-[550px]' src={WomanImg} alt=''/>
                 </div>
             </div>
         </section>

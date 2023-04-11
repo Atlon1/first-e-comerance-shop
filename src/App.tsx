@@ -4,6 +4,7 @@ import ProductDetails from "./pages/ProductDetails";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import UpArrow from "./components/UpArrow";
 
 
 
@@ -17,7 +18,8 @@ function App() {
                 {/*<Route path='/' element={<Home/>}/>*/}
             </Routes>
             <Sidebar/>
-            <Footer/>git
+            <Footer/>
+            <UpArrow/>
         </BrowserRouter>
     </div>;
 }
