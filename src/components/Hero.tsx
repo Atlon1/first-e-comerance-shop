@@ -1,6 +1,8 @@
 import React from 'react';
 import WomanImg from '../assets/woman_hero.png'
-import {Link} from 'react-router-dom'
+// @ts-ignore
+import {Link} from 'react-scroll';
+
 
 const Hero = () => {
     return (
@@ -16,15 +18,17 @@ const Hero = () => {
                         <span className='font-semibold'>WOMENS</span>
                     </h1>
                     <Link
-                        className='self-start uppercase font-semibold border-b-2 border-primary'
-                        to={'/'}>
+                        to="products"
+                        activeClass='active'
+                        smooth={true}
+                        spy={true}
+                        className='self-start uppercase font-semibold border-b-2 border-primary cursor-pointer'>
                         Discover More
                     </Link>
                 </div>
                 <div className='hidden lg:block'>
                     <img src={WomanImg} alt=''/>
                 </div>
-
             </div>
         </section>
     );
