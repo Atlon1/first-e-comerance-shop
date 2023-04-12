@@ -19,7 +19,7 @@ function App() {
             </Routes>
             <Sidebar/>
             <Footer/>
-            <UpArrow/>
+
         </BrowserRouter>
     </div>;
 }

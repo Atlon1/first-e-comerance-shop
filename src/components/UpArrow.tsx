@@ -21,7 +21,7 @@ const UpArrow = () => {
                   activeClass='active'
                   smooth={true}
                   spy={true}>
-                <BsFillArrowUpSquareFill className='text-6xl text-white cursor-pointer'/>
+                <BsFillArrowUpSquareFill className='text-6xl text-black cursor-pointer'/>
             </Link>
 
         </section>

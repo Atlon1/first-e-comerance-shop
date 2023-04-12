@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import {ProductContext} from "../context/ProductContext";
 import Product from "../components/Product";
 import Hero from "../components/Hero";
+import UpArrow from "../components/UpArrow";
 
 const Home = () => {
 
@@ -24,6 +25,7 @@ const Home = () => {
                    </div>
                </div>
             </section>
+            <UpArrow/>
         </div>
     );
 };
