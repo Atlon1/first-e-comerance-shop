@@ -15,7 +15,7 @@ const CartProvider = ({children}: any) => {
             return acc + currentItem.price * currentItem.amount
         }, 0)
         setTotal(total.toFixed(2))
-    })
+    }, [])
 
     useEffect(() => {
         if (cart) {
