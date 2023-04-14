@@ -9,7 +9,7 @@ The first store, preserving all functionalities such as a shopping cart and prod
 - Animations
 
 
-#Technologies
+# Technologies
 - Tailwind css
 - RWD
 - Typescript 
