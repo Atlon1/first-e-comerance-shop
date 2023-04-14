@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/first-e-comerance-shop/static/css/main.b8ec2149.css",
-    "main.js": "/first-e-comerance-shop/static/js/main.a6d91ae2.js",
+    "main.js": "/first-e-comerance-shop/static/js/main.9f3b5037.js",
     "static/media/woman_hero.png": "/first-e-comerance-shop/static/media/woman_hero.dc45b53e056c16e22072.png",
     "static/media/Maciej_logo.png": "/first-e-comerance-shop/static/media/Maciej_logo.5d5651cd1755b2acd341.png",
     "static/media/bg_hero.svg": "/first-e-comerance-shop/static/media/bg_hero.5b3a28da99dfd198982f.svg",
     "static/media/logo.svg": "/first-e-comerance-shop/static/media/logo.7740ae04391d2ede26528c55d3b0102f.svg",
     "index.html": "/first-e-comerance-shop/index.html",
     "main.b8ec2149.css.map": "/first-e-comerance-shop/static/css/main.b8ec2149.css.map",
-    "main.a6d91ae2.js.map": "/first-e-comerance-shop/static/js/main.a6d91ae2.js.map"
+    "main.9f3b5037.js.map": "/first-e-comerance-shop/static/js/main.9f3b5037.js.map"
   },
   "entrypoints": [
     "static/css/main.b8ec2149.css",
-    "static/js/main.a6d91ae2.js"
+    "static/js/main.9f3b5037.js"
   ]
 }
