@@ -36,7 +36,7 @@ const Product = ({product}: any) => {
                 <Link to={`/first-e-comerance-shop/product/${id}`}>
                     <h2 className='font-semibold mb-1 text-gray-200'>{title}</h2>
                 </Link>
-                <div className='font-semibold text-gray-200'>{price}</div>
+                <div className='font-semibold text-gray-200'>$ {price}</div>
             </div>
         </section>
     );
